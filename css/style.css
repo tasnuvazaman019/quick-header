@@ -1,0 +1,54 @@
+/*Common CSS starts here*/
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+}
+/*Common CSS ends here*/
+/*header start*/
+header{
+	border-bottom: 2px solid #e5e3e3;
+	padding: 15px;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	margin-top: 30px;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	padding: 0 25px;
+	color: #0f2656;
+	text-decoration: none;
+	transition: .33s;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #008aff;
+}
+/*header end*/
